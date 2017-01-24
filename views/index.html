@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="boilerplate">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/skeleton.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css.min/font-awesome.min.css">
+        <title>Boilerplate</title>
+    </head>
+    <body ng-controller="BoilerplateController as bp">
+        <div class="navbar">
+            <h1 class="app-title u-pull-left">Boilerplate</h1>
+            <nav class="u-pull-right">
+                <a id="min-btn"><span class="fa fa-window-minimize fa-2x" aria-hidden="true"></span></a>
+                <a id="resize-btn"><span class="fa fa-window-maximize fa-2x" aria-hidden="true"></span></a>
+                <a id="close-btn"><span class="fa fa-window-close fa-2x" aria-hidden="true"></span></a>
+            </nav>
+        </div>
+    </body>
+    <script>
+        require('./../render')
+    </script>
+    <script src="../assets/js.min/angular.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+</html>
